@@ -2,9 +2,8 @@
 
 An exploratory data analysis project examining Netflix's content library to understand content distribution, country-wise title concentration, and release-year trends.
 
-> \*\*Internship Project:\*\* This project was completed as part of my \*\*Auspify Internship\*\*. It demonstrates practical application of Python and data analysis techniques on a real-world entertainment dataset.
+> **Internship Project:** This project was completed as part of my **Auspify Internship**. It demonstrates practical application of Python and data analysis techniques on a real-world entertainment dataset.
 
-\---
 
 ## 📌 Project Overview
 
@@ -12,7 +11,7 @@ Netflix has a large and diverse content library containing Movies and TV Shows f
 
 The analysis covers the complete workflow from **data cleaning and validation to exploratory analysis, visualization, and business insights**.
 
-\---
+---
 
 ## 🎯 Business Objective
 
@@ -24,7 +23,7 @@ The objective of this project is to analyze Netflix's content catalog and identi
 * How Netflix's content releases have changed over time.
 * Major periods of content expansion and decline.
 
-\---
+---
 
 ## ❓ Business Questions
 
@@ -34,9 +33,9 @@ The objective of this project is to analyze Netflix's content catalog and identi
 4. How has Netflix's content release volume changed over the years?
 5. Which year recorded the highest number of content releases?
 
-\---
+---
 
-## 🛠️ Tools \& Technologies
+## 🛠️ Tools & Technologies
 
 * **Python**
 * **Pandas** — Data cleaning, transformation, aggregation, and analysis
@@ -44,7 +43,7 @@ The objective of this project is to analyze Netflix's content catalog and identi
 * **Jupyter Notebook** — Analysis and documentation
 * **GitHub** — Project version control and portfolio presentation
 
-\---
+---
 
 ## 📂 Project Structure
 
@@ -54,27 +53,27 @@ Netflix-Content-Analysis/
 ├── README.md
 │
 ├── data/
-│   ├── netflix\_dataset.csv
-│   └── cleaned\_netflix\_dataset.csv
+│   ├── netflix_dataset.csv
+│   └── cleaned_netflix_dataset.csv
 │
 ├── notebooks/
-│   ├── 01\_Data\_Cleaning.ipynb
-│   ├── 02\_Content\_Distribution\_Analysis.ipynb
-│   ├── 03\_Country\_Wise\_Content\_Analysis.ipynb
-│   └── 04\_Release\_Year\_Trend\_Analysis.ipynb
+│   ├── 01_Data_Cleaning.ipynb
+│   ├── 02_Content_Distribution_Analysis.ipynb
+│   ├── 03_Country_Wise_Content_Analysis.ipynb
+│   └── 04_Release_Year_Trend_Analysis.ipynb
 │
 └── images/
-    ├── content\_distribution.png
-    ├── top\_10\_countries.png
-    ├── content\_type\_by\_country.png
-    └── content\_release\_trend.png
+    ├── content_distribution.png
+    ├── top_10_countries.png
+    ├── content_type_by_country.png
+    └── content_release_trend.png
 ```
 
-\---
+---
 
 ## 🔍 Analysis Performed
 
-### 1\. Data Cleaning
+### 1. Data Cleaning
 
 The original dataset was inspected and prepared for analysis.
 
@@ -88,11 +87,11 @@ Key checks included:
 
 The cleaned dataset was saved separately as:
 
-`cleaned\_netflix\_dataset.csv`
+`cleaned_netflix_dataset.csv`
 
-\---
+---
 
-### 2\. Content Distribution Analysis
+### 2. Content Distribution Analysis
 
 The cleaned dataset contains **8,790 titles**:
 
@@ -104,13 +103,13 @@ The cleaned dataset contains **8,790 titles**:
 
 ### Visualization
 
-!\[Content Distribution](images/content\_distribution.png)
+![Content Distribution](images/content_distribution.png)
 
 ### Key Insight
 
 Movies represent approximately **70%** of the catalog, while TV Shows account for approximately **30%**. The dataset therefore has a substantially larger Movie presence.
 
-\---
+---
 
 ### 3\. Country-wise Content Analysis
 
@@ -131,11 +130,11 @@ The analysis identified the countries associated with the highest number of titl
 |9|France|213|
 |10|Spain|182|
 
-> \*\*Note:\*\* `Not Given` represents records where country information was unavailable and is not treated as a country in the interpretation.
+> **Note:** `Not Given` represents records where country information was unavailable and is not treated as a country in the interpretation.
 
 ### Visualization
 
-!\[Top 10 Countries](images/top\_10\_countries.png)
+![Top 10 Countries](images/top_10_countries.png)
 
 ### Movies vs TV Shows Across Top Countries
 
@@ -149,7 +148,7 @@ The country-wise analysis was further broken down by content type.
 |Pakistan|71|350|
 |Not Given|257|30|
 
-!\[Content Type by Country](images/content\_type\_by\_country.png)
+![Content Type by Country](images/content_type_by_country.png)
 
 ### Key Insights
 
@@ -161,9 +160,9 @@ The country-wise analysis was further broken down by content type.
 
 > Country counts represent titles associated with each country in the dataset; they should not be interpreted as direct measurements of actual production volume.
 
-\---
+---
 
-### 4\. Release Year Trend Analysis
+### 4. Release Year Trend Analysis
 
 The release-year analysis examined how the number of titles changed over time.
 
@@ -173,7 +172,7 @@ The dataset shows strong growth in content releases from the early 2010s, follow
 
 **2018 — 1,146 titles**
 
-!\[Content Release Trend](images/content\_release\_trend.png)
+![Content Release Trend](images/content_release_trend.png)
 
 ### Key Insights
 
@@ -184,7 +183,7 @@ The dataset shows strong growth in content releases from the early 2010s, follow
 * The dataset contains **592 titles for 2021**; this lower figure may reflect incomplete data for that year and should not be interpreted as a definitive full-year decline.
 * Overall, the dataset indicates a period of significant content expansion followed by a decline after the 2018 peak.
 
-\---
+---
 
 ## 📊 Key Findings
 
@@ -195,9 +194,9 @@ The dataset shows strong growth in content releases from the early 2010s, follow
 5. **2018 was the peak release year:** The dataset records **1,146 titles** released in 2018.
 6. **Content expansion accelerated during the mid-2010s:** Releases increased particularly sharply in 2015 and 2016 before reaching the 2018 peak.
 
-\---
+---
 
-## 💼 Business Insights \& Recommendations
+## 💼 Business Insights & Recommendations
 
 Based on the analysis, several observations can be made:
 
@@ -209,7 +208,7 @@ Based on the analysis, several observations can be made:
 
 > These recommendations are analytical observations from the dataset and should be combined with additional business, audience, and financial data before making operational decisions.
 
-\---
+---
 
 ## 📁 Dataset
 
@@ -217,27 +216,27 @@ The original dataset was provided through a **Google Drive link included in the 
 
 For reproducibility, both versions are included in the repository:
 
-* `netflix\_dataset.csv` — Original dataset
-* `cleaned\_netflix\_dataset.csv` — Dataset after data cleaning and standardization
+* `netflix_dataset.csv` — Original dataset
+* `cleaned_netflix_dataset.csv` — Dataset after data cleaning and standardization
 
-\---
+---
 
 ## 🚀 How to Use
 
-### 1\. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Hrs-ML/netflix-content-analysis
 cd netflix-content-analysis
 ```
 
-### 2\. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install pandas matplotlib jupyter
 ```
 
-### 3\. Run the notebooks
+### 3. Run the notebooks
 
 Open Jupyter Notebook:
 
@@ -247,12 +246,12 @@ jupyter notebook
 
 Then run the notebooks in the following order:
 
-1. `01\_Data\_Cleaning.ipynb`
-2. `02\_Content\_Distribution\_Analysis.ipynb`
-3. `03\_Country\_Wise\_Content\_Analysis.ipynb`
-4. `04\_Release\_Year\_Trend\_Analysis.ipynb`
+1. `01_Data_Cleaning.ipynb`
+2. `02_Content_Distribution_Analysis.ipynb`
+3. `03_Country_Wise_Content_Analysis.ipynb`
+4. `04_Release_Year_Trend_Analysis.ipynb`
 
-\---
+---
 
 ## 📈 Project Outcome
 
@@ -260,7 +259,7 @@ This project demonstrates an end-to-end exploratory data analysis workflow using
 
 The analysis provides a clear view of Netflix's content mix, geographic concentration, and historical release patterns while demonstrating practical skills in **Pandas, data cleaning, exploratory analysis, and Matplotlib visualization**.
 
-\---
+---
 
 ## 👤 Author
 
